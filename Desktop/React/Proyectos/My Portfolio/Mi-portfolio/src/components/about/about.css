@@ -1,0 +1,75 @@
+.a {
+    height: 100vh;
+    background-color: pink;
+    display: flex;
+    align-items: center;
+}
+
+.a-left {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    height: 100%;
+}
+
+.a-right {
+    flex: 1;
+}
+
+.a-card.bg {
+    position: absolute;
+    top: 50px;
+    left: 50px;
+    background-color: #333;
+}
+
+.a-card {
+    height: 70vh;
+    width: 60%;
+    border-radius: 30px;
+    position: relative;
+    overflow:hidden;
+}
+
+.a-img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.a-title {
+    font-weight: 400;
+}
+
+.a-sub {
+    font-weight: 400;
+    margin: 20px 0px;
+}
+
+.a-desc {
+    font-weight: 300;
+    margin: 20px 0px;
+}
+
+.a-curriculum {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.a-linkedin {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+ 
+}
+
+.a-github {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 20%;
+}
+
