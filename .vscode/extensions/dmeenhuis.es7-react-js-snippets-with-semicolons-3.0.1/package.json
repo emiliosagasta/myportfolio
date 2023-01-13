@@ -1,0 +1,90 @@
+{
+	"name": "es7-react-js-snippets-with-semicolons",
+	"displayName": "ES7 React/Redux/GraphQL/React-Native snippets (with semi-colons)",
+	"description": "Simple extensions for React, Redux and Graphql in JS/TS with ES7 syntax",
+	"version": "3.0.1",
+	"publisher": "dmeenhuis",
+	"icon": "images/logo.png",
+	"keywords": [
+		"snippets",
+		"react",
+		"redux",
+		"react-native",
+		"javascript",
+		"typescript"
+	],
+	"engines": {
+		"vscode": "^1.13.0"
+	},
+	"license": "MIT",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/dmeenhuis/vscode-es7-javascript-react-snippets"
+	},
+	"categories": [
+		"Snippets"
+	],
+	"extensionKind": "ui",
+	"main": "./out/index.js",
+	"activationEvents": [
+		"onCommand:extension.snippetSearch"
+	],
+	"contributes": {
+		"commands": [
+			{
+				"command": "extension.snippetSearch",
+				"title": "ES7 snippet search"
+			}
+		],
+		"keybindings": [
+			{
+				"command": "extension.snippetSearch",
+				"key": "ctrl+alt+r",
+				"mac": "shift+cmd+r",
+				"when": "editorTextFocus"
+			}
+		],
+		"snippets": [
+			{
+				"language": "javascript",
+				"path": "./snippets/snippets.json"
+			},
+			{
+				"language": "javascriptreact",
+				"path": "./snippets/snippets.json"
+			},
+			{
+				"language": "typescript",
+				"path": "./snippets/snippets.json"
+			},
+			{
+				"language": "typescriptreact",
+				"path": "./snippets/snippets.json"
+			}
+		]
+	},
+	"scripts": {
+		"vscode:prepublish": "npm run compile",
+		"compile": "tsc -p ./",
+		"watch": "tsc -watch -p ./",
+		"postinstall": "node ./node_modules/vscode/bin/install",
+		"test": "npm run compile && node ./node_modules/vscode/bin/test"
+	},
+	"devDependencies": {
+		"typescript": "3.4.2",
+		"vscode": "1.1.33",
+		"tslint": "5.15.0",
+		"@types/node": "11.13.0"
+	},
+	"__metadata": {
+		"id": "7c42e579-7772-424d-a8b2-1aaf8707b0aa",
+		"publisherId": "f0bc5d69-c8b8-42b3-b514-9012fd57d653",
+		"publisherDisplayName": "dmeenhuis",
+		"targetPlatform": "undefined",
+		"isApplicationScoped": false,
+		"updated": false,
+		"isPreReleaseVersion": false,
+		"installedTimestamp": 1671194893021,
+		"preRelease": false
+	}
+}

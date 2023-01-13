@@ -1,0 +1,71 @@
+{
+	"name": "lorem-picsum",
+	"displayName": "Lorem Picsum",
+	"description": "Visual studio code snippets extention for Lorem Picsum photos. Based on https://marketplace.visualstudio.com/items?itemName=huang-an-sheng.lorem-picsum-photos-snippets",
+	"version": "1.0.1",
+	"publisher": "ZaferAYAN",
+	"author": {
+		"name": "Zafer AYAN"
+	},
+	"keywords": [
+		"snippets",
+		"lorem",
+		"picsum",
+		"image"
+	],
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/ozcanzaferayan/lorem-picsum-vscode-extension"
+	},
+	"icon": "icon_new.png",
+	"engines": {
+		"vscode": "^1.34.0"
+	},
+	"categories": [
+		"Snippets"
+	],
+	"license": "MIT",
+	"contributes": {
+		"snippets": [
+			{
+				"language": "html",
+				"path": "./snippets/html-snippets.json"
+			},
+			{
+				"language": "typescriptreact",
+				"path": "./snippets/typescriptreact-snippets.json"
+			},
+			{
+				"language": "vue",
+				"path": "./snippets/html-snippets.json"
+			},
+			{
+				"language": "vue-html",
+				"path": "./snippets/html-snippets.json"
+			},
+			{
+				"language": "css",
+				"path": "./snippets/css-snippets.json"
+			},
+			{
+				"language": "scss",
+				"path": "./snippets/css-snippets.json"
+			},
+			{
+				"language": "javascript",
+				"path": "./snippets/javascript-snippets.json"
+			}
+		]
+	},
+	"__metadata": {
+		"id": "25036336-d2f5-4bd2-a3c6-21f20be68a3f",
+		"publisherDisplayName": "Zafer AYAN",
+		"publisherId": "949ef023-188f-4115-a8b2-39f28daced22",
+		"targetPlatform": "undefined",
+		"isApplicationScoped": false,
+		"updated": false,
+		"isPreReleaseVersion": false,
+		"installedTimestamp": 1669301433106,
+		"preRelease": false
+	}
+}
