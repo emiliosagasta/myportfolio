@@ -76,3 +76,17 @@
     top: 0;
     right: 0;
 }
+
+@media screen and (max-width: 480px){
+    .i{
+        flex-direction: column;
+    }
+
+    .i-left-wrapper{
+        padding: 10px;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+        height: 100%;
+    }
+}
